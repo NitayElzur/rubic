@@ -64,6 +64,11 @@
     width: 40px;
 }
 
+#spinLogo {
+    height: 100px;
+    width: 100px;
+}
+
 /*Page specific content*/
 #mainContent {
     display: flex;
@@ -204,8 +209,8 @@
     #links {
         flex-direction: column;
         align-items: center;
-    }      
-    
+    }
+ 
     /*End of page - universal code*/
     #endOfPage {
         display: flex;
