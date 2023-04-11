@@ -9,17 +9,22 @@
 }
 
 .bigText {
-    font-size: 2.5rem;
+    font-family: sono;
+    font-size: 2rem;
     font-weight: bold;
 }
 
 .regText {
-    font-size: 1.2rem;
+    font-family: sono;
+    font-size: 1rem;
     padding: 2vw 0vw;
+    line-height: 1.2;
 }
-
+.buttons {
+    display: flex;
+}
 .button {
-    height: 10%;
+    height: 60%;
     width: 60%;
     align-self: center;
 }

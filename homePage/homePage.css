@@ -20,6 +20,7 @@
     font-size: 10vh;
     width: 100%;
     text-align: center;
+    font-family: sono;
 }
 
 #firstPhoto {
@@ -36,6 +37,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    font-family: sono;
+    font-weight: bold;
     /* padding: 1vw; */
 }
 
@@ -95,6 +98,8 @@
 
 .bigText {
     font-size: 2rem;
+    font-family: sono;
+    font-weight: bold;
 }
 
 #phantom {
@@ -109,6 +114,8 @@
 
 .interPhotoText {
     font-size: 1.2rem;
+    font-weight: bold;
+    font-family: sono;
 }
 
 #about {

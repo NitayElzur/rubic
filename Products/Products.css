@@ -28,6 +28,7 @@
 .text {
     margin: 2vw 0vw;
     font-weight: bold;
+    font-family: sono;
 }
 
 /*Responsive phone design*/
