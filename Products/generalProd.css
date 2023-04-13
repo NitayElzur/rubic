@@ -9,13 +9,11 @@
 }
 
 .bigText {
-    font-family: sono;
     font-size: 2rem;
     font-weight: bold;
 }
 
 .regText {
-    font-family: sono;
     font-size: 1rem;
     padding: 2vw 0vw;
     line-height: 1.2;

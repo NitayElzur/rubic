@@ -3,8 +3,6 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    /* top: 0; */
-    left: 0;
     margin-top: 13vh;
 }
 
@@ -20,7 +18,6 @@
     font-size: 10vh;
     width: 100%;
     text-align: center;
-    font-family: sono;
 }
 
 #firstPhoto {
@@ -37,9 +34,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    font-family: sono;
     font-weight: bold;
-    /* padding: 1vw; */
 }
 
 #leftMiniInterPhoto {
@@ -75,7 +70,7 @@
 }
 
 .bigInterPhotoText {
-    font-size: 2.5rem;
+    font-size: 2rem;
     text-align: center;
 }
 
@@ -98,7 +93,6 @@
 
 .bigText {
     font-size: 2rem;
-    font-family: sono;
     font-weight: bold;
 }
 
@@ -114,8 +108,7 @@
 
 .interPhotoText {
     font-size: 1.2rem;
-    font-weight: bold;
-    font-family: sono;
+    font-weight: bold;  
 }
 
 #about {

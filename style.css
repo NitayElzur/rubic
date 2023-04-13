@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@500&display=swap');
+
+* {
+    font-family: 'Sono';
+}
+
 /*NavBar - universal code*/
 #NavBar {
     display: flex;
@@ -19,9 +25,13 @@
     height: 100%;
     width: auto;
     transition: transform 0.2s;
+    position: fixed;
+    object-fit: contain;
+    height: 15vh;
 }
+
 #logo:hover {
-    transform: scale(1.1);
+    transform: scale(1.03);
 }
 
 #links {
@@ -29,16 +39,19 @@
     margin-right: 5vw;
     display: flex;
     justify-content: space-around;
+    position: fixed;
+    left: 50vw;
 }
 
 .navItem {
     color: white;
     font-weight: bold;
     text-decoration: none;
-    font-family: sono;
     position: relative;
 }
-.navItem::before, .navItem::after {
+
+.navItem::before,
+.navItem::after {
     position: absolute;
     opacity: 0;
     width: 0%;
@@ -47,24 +60,30 @@
     background: white;
     transition: all 0.3s;
 }
+
 .navItem::before {
     top: 0;
     right: 0;
 }
+
 .navItem::after {
     bottom: 0;
     left: 0;
 }
-.navItem:hover::before, .navItem:hover::after {
+
+.navItem:hover::before,
+.navItem:hover::after {
     opacity: 1;
     width: 100%;
 }
+
 /*End of page - universal code*/
 #endOfPage {
     display: flex;
     background-color: #14110f;
     justify-content: space-around;
     align-items: center;
+    padding-top: 1vh;
 }
 
 
@@ -75,7 +94,7 @@
     flex-direction: column;
     height: 60%;
     justify-content: space-evenly;
-    font-family: sono;
+    padding-top: 1vh;
 }
 
 #picLinks {
@@ -93,6 +112,7 @@
     height: 100px;
     width: 100px;
 }
+
 /*General useful classes*/
 .button {
     width: 35%;
@@ -109,18 +129,13 @@
     font-size: 1.2rem;
     text-align: center;
     padding: 1vh 0;
-    font-family: sono;
+    transition: all 0.3s;
 }
 
 .button:hover {
     background-color: white;
     border-color: #0053a1;
     color: #0053a1;
-}
-
-@font-face {
-    font-family: sono;
-    src: url(/rubiksProject/resources/webfontkit-20230411-092238/sono-variablefont_monowght-webfont.woff2);
 }
 
 /*Responsive phone design*/
@@ -130,9 +145,13 @@
     #links {
         flex-direction: column;
         align-items: center;
-        height: 100%;
+        height: 13vh;
     }
- 
+
+    #logo {
+        height: 10vh;
+    }
+
     /*End of page - universal code*/
     #endOfPage {
         display: flex;
